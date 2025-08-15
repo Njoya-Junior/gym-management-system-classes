@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Management System</title>
+  <link rel="stylesheet" href="gym.css">
+</head>
+<body>
+
+
+  <header>
+    <div class="logo">Gym Management System</div>
+
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Classes</a></li>
+        <li><a href="#">Schedule</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a href="#" class="btn">Join Now</a>
+
+    
+    <div class="hamburger" id="hamburger">
+      ☰
+    </div>
+  </header>
+
+  
+  <section class="hero">
+    <h1>Classes</h1>
+    <p>Explore our professional and engaging fitness programs</p>
+  </section>
+
+  <section class="classes">
+    <div class="card">
+      <img src="https://images.pexels.com/photos/3757955/pexels-photo-3757955.jpeg" alt="Cycling">
+      <h3>Weight Loss Cycling</h3>
+      <p>High-energy sessions to burn calories and boost endurance.</p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg" alt="Martial Arts">
+      <h3>Martial Arts</h3>
+      <p>Learn self-defense while improving strength and discipline.</p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="card">
+      <img src="https://images.pexels.com/photos/3823035/pexels-photo-3823035.jpeg" alt="Yoga">
+      <h3>Meditation & Yoga</h3>
+      <p>Enhance flexibility, reduce stress, and boost mindfulness.</p>
+      <a href="#">Read More</a>
+    </div>
+  </section>
+
+  
+  <section class="stats">
+    <div>
+      <h2>874</h2>
+      <p>Happy Clients</p>
+    </div>
+    <div>
+      <h2>789</h2>
+      <p>Best Trainers</p>
+    </div>
+    <div>
+      <h2>985</h2>
+      <p>Cups of Coffee</p>
+    </div>
+    <div>
+      <h2>698</h2>
+      <p>Latest Equipment</p>
+    </div>
+  </section>
+
+  <section class="schedule">
+    <h2>Weekly Class Schedule</h2>
+    <div class="day-tabs">
+      <button class="active">Monday</button>
+      <button>Tuesday</button>
+      <button>Wednesday</button>
+      <button>Thursday</button>
+      <button>Friday</button>
+      <button>Saturday</button>
+    </div>
+
+    <div class="class-row">
+      <span>Fitness</span>
+      <span>9:00am - 10:00am</span>
+      <span>David Vila</span>
+      <a href="#">Discover More</a>
+    </div>
+    <div class="class-row">
+      <span>Yoga</span>
+      <span>10:30am - 11:30am</span>
+      <span>Sophia Lee</span>
+      <a href="#">Discover More</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Gym Management System. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
